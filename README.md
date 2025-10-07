@@ -65,8 +65,8 @@ nounsbridge/
 
 ```bash
 # Clone repository
-git clone https://github.com/BaD-DAO/NounsBridge.git
-cd NounsBridge
+git clone https://github.com/BaD-DAO/nouns-bridge.git
+cd nouns-bridge
 
 # Install dependencies
 npm install
