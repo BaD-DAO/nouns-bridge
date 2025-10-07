@@ -8,7 +8,6 @@
 
 ```
 nda-lilnouns-bridge/
-├── 📄 .cursor-prompt.md          # Cursor AI system prompt configuration
 ├── 📄 .env.example                # Environment variables template
 ├── 📄 .gitignore                  # Git ignore rules
 ├── 📄 README.md                   # Project overview and quick start
