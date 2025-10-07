@@ -1,7 +1,7 @@
 {
-  "name": "nda-lilnouns-bridge",
+  "name": "nounsbridge",
   "version": "1.0.0",
-  "description": "On-chain governance bridge connecting NDA token holders on Base to Lil Nouns DAO on Ethereum Mainnet via Layer-0",
+  "description": "NounsBridge - Cross-chain governance bridge connecting NDA token holders on Base to Lil Nouns DAO on Ethereum Mainnet",
   "main": "index.js",
   "scripts": {
     "compile": "hardhat compile",

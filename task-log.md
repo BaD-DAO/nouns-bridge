@@ -1,4 +1,4 @@
-# Task Log: NDA ↔ Lil Nouns Governance Bridge
+# Task Log: NounsBridge
 
 ## Project Status: 🟡 Phase 1 - In Progress
 

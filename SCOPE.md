@@ -1,4 +1,4 @@
-# Project Scope: NDA ↔ Lil Nouns Governance Bridge
+# Project Scope: NounsBridge
 
 ## 🎯 Objectives
 

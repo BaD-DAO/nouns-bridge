@@ -1,6 +1,8 @@
-# NDA ↔ Lil Nouns Governance Bridge (Layer-0, On-Chain)
+# NounsBridge
 
-> **Phase 1:** On-chain governance bridge connecting NDA token holders on Base to Lil Nouns DAO on Ethereum Mainnet via Layer-0 messaging.
+> **Cross-chain governance bridge connecting NDA token holders on Base to Lil Nouns DAO on Ethereum Mainnet**
+
+![NounsBridge](https://img.shields.io/badge/Phase-1-blue) ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-orange) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 🎯 Overview
 
@@ -40,7 +42,7 @@ This project replaces the off-chain Snapshot voting system with a fully on-chain
 ## 📁 Project Structure
 
 ```
-nda-lilnouns-bridge/
+nounsbridge/
 ├── contracts/          # Solidity smart contracts
 │   └── interfaces/     # Contract interfaces
 ├── scripts/            # Deployment and utility scripts
@@ -63,8 +65,8 @@ nda-lilnouns-bridge/
 
 ```bash
 # Clone repository
-git clone <repo-url>
-cd nda-lilnouns-bridge
+git clone https://github.com/BaD-DAO/NounsBridge.git
+cd NounsBridge
 
 # Install dependencies
 npm install

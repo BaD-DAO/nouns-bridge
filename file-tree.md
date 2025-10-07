@@ -1,4 +1,4 @@
-# File Tree: NDA ↔ Lil Nouns Governance Bridge
+# File Tree: NounsBridge
 
 **Last Updated**: 2025-10-08
 

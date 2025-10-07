@@ -1,8 +1,8 @@
-# UI/UX Design Specification: NDA ↔ Lil Nouns Governance Bridge
+# UI/UX Design Specification: NounsBridge
 
 ## 🎨 Design Overview
 
-This document outlines the frontend design specifications for the NDA ↔ Lil Nouns Governance Bridge web application. The interface enables NDA token holders on Base to vote on mirrored Lil Nouns proposals with a clean, intuitive, and accessible user experience.
+This document outlines the frontend design specifications for the NounsBridge web application. The interface enables NDA token holders on Base to vote on mirrored Lil Nouns proposals with a clean, intuitive, and accessible user experience.
 
 ---
 

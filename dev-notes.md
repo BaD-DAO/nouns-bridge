@@ -1,4 +1,4 @@
-# Development Notes: NDA ↔ Lil Nouns Governance Bridge
+# Development Notes: NounsBridge
 
 ## 📋 Technical Specifications
 
