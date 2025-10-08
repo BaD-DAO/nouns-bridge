@@ -1,19 +1,29 @@
 # NounsBridge - Project Status & Checklist
 
 > **Last Updated**: 2025-10-08
-> **Current Phase**: Phase 1 - Week 2
+> **Current Phase**: Week 1, Day 3 (2-Week Sprint!)
 > **Overall Progress**: 40% Complete
 
 ---
 
-## 📊 Quick Overview
+## 📊 Quick Overview - 2 Week Timeline ⚡
 
-| Phase | Status | Progress | Timeline |
-|-------|--------|----------|----------|
-| **Phase 1: Foundation** | 🟡 In Progress | 40% | Weeks 1-4 |
-| **Phase 2: Deployment** | 🔴 Not Started | 0% | Weeks 5-6 |
-| **Phase 3: Frontend** | 🔴 Not Started | 0% | Weeks 7-9 |
-| **Phase 4: Launch** | 🔴 Not Started | 0% | Week 10 |
+| Week | Phase | Status | Progress | Days |
+|------|-------|--------|----------|------|
+| **Week 1** | Contracts + Testing + Testnet | 🟡 In Progress | 40% | Days 1-7 |
+| **Week 2** | Frontend + Mainnet Launch | 🔴 Not Started | 0% | Days 8-14 |
+
+### Daily Breakdown
+- ✅ **Day 1**: Setup & Architecture (Complete)
+- 🔄 **Day 2**: Layer-0 Integration (In Progress)
+- 🔴 **Day 3**: Testing (Today!)
+- 🔴 **Day 4**: Fork Tests + Security
+- 🔴 **Day 5**: Testnet Deploy
+- 🔴 **Day 6**: Testnet Testing
+- 🔴 **Day 7**: Audit Prep
+- 🔴 **Days 8-10**: Frontend MVP
+- 🔴 **Days 11-12**: Final Testing
+- 🔴 **Days 13-14**: Mainnet Launch 🚀
 
 ---
 
@@ -104,9 +114,9 @@
 
 ## 🔴 What We Need to Do Next
 
-### 🚨 Critical Priority: Complete Phase 1
+### ⚡ URGENT: Complete Week 1 (Days 2-7)
 
-#### Week 2-3: Layer-0 Integration (0% Complete)
+#### Day 2 (Today/Tomorrow): Layer-0 Integration (50% Complete)
 
 **Step 1: Install Dependencies**
 ```bash
@@ -136,7 +146,7 @@ npm install @layerzerolabs/lz-evm-protocol-v2
 - [ ] Set trusted remote addresses
 - [ ] Test message delivery
 
-#### Week 2: Complete Contract Logic (30% Complete)
+#### Day 2-3: Complete Contract Logic (30% Complete)
 
 **MirrorGovernor Improvements:**
 - [ ] Implement real voting power calculation
@@ -159,7 +169,7 @@ npm install @layerzerolabs/lz-evm-protocol-v2
   - [ ] Add nonce tracking
   - [ ] Implement emergency shutdown
 
-#### Week 3-4: Testing & Optimization (0% Complete)
+#### Days 3-4: Testing & Optimization (0% Complete)
 
 **Comprehensive Testing:**
 - [ ] Write unit tests for all functions
@@ -194,11 +204,11 @@ npm install @layerzerolabs/lz-evm-protocol-v2
 
 ---
 
-## 📅 Future Phases (Not Started)
+## 📅 Week 1 Remaining Tasks
 
-### Phase 2: Testnet Deployment (Weeks 5-6)
+### Days 5-6: Testnet Deployment
 
-**Week 5: Testnet Launch**
+**Day 5: Testnet Launch**
 - [ ] Deploy MirrorGovernor to Base Sepolia
 - [ ] Deploy MainnetExecutor to Ethereum Sepolia
 - [ ] Configure Layer-0 connection
@@ -206,7 +216,7 @@ npm install @layerzerolabs/lz-evm-protocol-v2
 - [ ] Verify contracts on explorers
 - [ ] Write deployment runbook
 
-**Week 6: Audit & Mainnet Prep**
+**Day 6: Testing & Fixes**
 - [ ] Hire external security auditor
 - [ ] Address all audit findings
 - [ ] Final gas optimization
@@ -214,40 +224,65 @@ npm install @layerzerolabs/lz-evm-protocol-v2
 - [ ] Set up multisig wallet
 - [ ] Prepare mainnet scripts
 
-### Phase 3: Frontend Development (Weeks 7-9)
+### Day 7: Audit Prep & Documentation
+- [ ] Complete all documentation
+- [ ] Run final security checks
+- [ ] Prepare emergency procedures
+- [ ] Set up multisig wallet
+- [ ] Review mainnet deployment checklist
 
-**Week 7: Foundation**
+---
+
+## 📅 Week 2: Frontend & Launch (Days 8-14)
+
+### Days 8-10: Frontend MVP
 - [ ] Set up Next.js + TypeScript
 - [ ] Configure wagmi/viem for Web3
 - [ ] Implement UI from UI-UX.md
 - [ ] Build component library
 - [ ] Add wallet connections
 
-**Week 8: Core Features**
+**Day 9: Core Features**
 - [ ] Proposal list page
 - [ ] Proposal detail page
 - [ ] Voting interface
 - [ ] Transaction handling
 - [ ] Real-time updates
 
-**Week 9: Polish**
+**Day 10: Polish & Testing**
 - [ ] Cross-chain status tracking
-- [ ] Error handling
-- [ ] Mobile responsive
+- [ ] Error handling & UX
+- [ ] Mobile responsive design
 - [ ] E2E testing
 - [ ] User documentation
 
-### Phase 4: Mainnet Launch (Week 10)
+### Days 11-12: Final Testing & Prep
+- [ ] Test frontend with testnet contracts
+- [ ] User acceptance testing
+- [ ] Fix critical bugs
+- [ ] Performance optimization
+- [ ] Final security review
+- [ ] Create monitoring dashboard
+- [ ] Prepare user documentation
+- [ ] Set up support channels
 
-**Production Deployment:**
+### Days 13-14: Mainnet Launch 🚀
+
+**Day 13: Deployment**
 - [ ] Deploy MirrorGovernor to Base mainnet
 - [ ] Deploy MainnetExecutor to Ethereum mainnet
 - [ ] **CRITICAL:** Delegate Lil Nouns voting power
 - [ ] Configure Layer-0 production
-- [ ] Deploy frontend
-- [ ] Set up monitoring
-- [ ] Publish user guides
+- [ ] Deploy frontend to production
+- [ ] Verify all contracts
+- [ ] Set up monitoring & alerts
+
+**Day 14: Launch & Monitor**
+- [ ] Final testing on mainnet
 - [ ] Community announcement
+- [ ] Monitor first votes
+- [ ] User support
+- [ ] Celebrate! 🎉
 
 ---
 
@@ -308,37 +343,43 @@ npm install @layerzerolabs/lz-evm-protocol-v2
 
 ---
 
-## 🎬 Next Actions (Priority Order)
+## 🎬 Immediate Next Steps - 2 Week Sprint! ⚡
 
-1. ✅ **Install Layer-0 packages** (5 minutes)
+### 🚨 TODAY (Day 2-3): Complete Layer-0 Integration
+
+1. ✅ **Install Layer-0 packages** (15 min)
    ```bash
    npm install @layerzerolabs/lz-evm-oapp-v2 @layerzerolabs/lz-evm-protocol-v2
    ```
 
-2. 🔧 **Implement Layer-0 in MirrorGovernor** (2-3 hours)
-   - Add OApp inheritance
-   - Implement _lzSend
-   - Pack vote messages
+2. 🔧 **Implement Layer-0 in contracts** (4-6 hours)
+   - MirrorGovernor: Add _lzSend
+   - MainnetExecutor: Add _lzReceive
+   - Configure endpoints & DVNs
 
-3. 🔧 **Implement Layer-0 in MainnetExecutor** (2-3 hours)
-   - Add OApp inheritance
-   - Implement _lzReceive
-   - Unpack and execute
-
-4. ✅ **Complete voting power logic** (1-2 hours)
-   - Query NDA token balance
+3. ✅ **Complete voting power** (1 hour)
+   - Query NDA token balances
    - Calculate voting power
 
-5. 🧪 **Write comprehensive tests** (1 day)
-   - Mock all dependencies
-   - Test full flow
-   - Fork testing
+4. 🧪 **Start testing** (2-3 hours)
+   - Mock contracts
+   - Basic flow tests
 
-6. 🚀 **Deploy to testnets** (1 day)
-   - Base Sepolia
-   - Ethereum Sepolia
-   - Test cross-chain
+### 📅 This Week (Days 3-7):
+- **Day 3**: Complete unit tests
+- **Day 4**: Fork tests + security check
+- **Day 5**: Deploy to testnets
+- **Day 6**: Test & fix issues
+- **Day 7**: Audit prep & documentation
+
+### 📅 Next Week (Days 8-14):
+- **Days 8-10**: Build frontend MVP
+- **Days 11-12**: Final testing
+- **Days 13-14**: Mainnet launch 🚀
 
 ---
 
-**Status**: Ready to complete Layer-0 integration and move to testing phase! 🚀
+**Status**: ⚡ 2-Week Sprint in Progress!
+**Days Remaining**: 12 days to launch
+**Next Milestone**: Layer-0 integration (End of Day 2)
+**Launch Date**: Day 14 🎯
