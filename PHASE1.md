@@ -1,4 +1,4 @@
-### **The Nouns DAO Evolution: A Phased Roadmap for Resilient Governance & Accelerated Value Creation**
+# **The Nouns DAO Evolution: A Phased Roadmap for Resilient Governance & Accelerated Value Creation**
 
 ## **A New Paradigm for On-Chain Governance**
 
@@ -41,7 +41,7 @@ This architecture is the engine for our phased rollout, designed to deliver imme
 
 ### **3. The Phased Roadmap: From Foundation to Flywheel**
 
-#### **Phase 1: The Bimodal Foundation - De-Risking & Parallel Governance (Months 0-6)**
+#### **Phase 1: The Bimodal Foundation - De-Risking & Parallel Governance**
 
 **Business Rationale & Vision:** To protect the core treasury while enabling agile community decision-making. This phase formally separates "day-to-day experimentation" from "canonical treasury actions," de-risking both and establishing a clear path for cross-DAO initiatives.
 
@@ -73,7 +73,7 @@ This architecture is the engine for our phased rollout, designed to deliver imme
 
 ---
 
-#### **The Delegation Engine - Scaling Participation & Reducing Friction (Months 6-10)**
+#### **The Delegation Engine - Scaling Participation & Reducing Friction**
 
 **Business Rationale & Vision:** To increase voter turnout and delegate effectiveness, strengthening governance legitimacy and making the DAO more resilient to attacks. This reduces the operational cost (gas) of participation and professionalizes delegation.
 
@@ -89,7 +89,7 @@ This architecture is the engine for our phased rollout, designed to deliver imme
 
 ---
 
-#### **The Modular Future - Composable Governance & Infinite Scale (Months 10-18+)**
+#### **The Modular Future - Composable Governance & Infinite Scale**
 
 **Business Rationale & Vision:** To position Nouns DAO as the most adaptable governance protocol in Web3, capable of integrating new models without hard forks. This creates immense optionality and future-proofs the ecosystem.
 
@@ -104,7 +104,7 @@ This architecture is the engine for our phased rollout, designed to deliver imme
 **Key Deliverable:** The first successful deployment of a community-built governance module from Lil Nouns to Nouns DAO, proving infinite adaptability.
 
 
-# NounsDAOLogicV3 (The Canonical Layer)
+##### NounsDAOLogicV3 (The Canonical Layer)
 
 Role: The foundational layer. Holds the definitive treasury and NFT collection.
 
@@ -134,7 +134,7 @@ contract NounsDAOLogicV3 is NounsDAOLogicV2 {
         stateMirror = newStateMirror;
     }
 }
-#NounsStateMirror (The Security & Synchronization Layer)
+##### NounsStateMirror (The Security & Synchronization Layer)
 
 Role: The trusted bridge and real-time backup.
 
@@ -170,7 +170,7 @@ contract NounsStateMirror {
     
     // ... event syncing logic ...
 }
-# LilNounsDAO (The Innovation Sandbox)
+##### LilNounsDAO (The Innovation Sandbox)
 
 Role: The rapid prototyping environment.
 
@@ -210,7 +210,7 @@ contract LilNounsDAO is NounsDAOLogicV3 {
         return lilNounsProposalId;
     }
 }
-# NounsConsensusEngine (The Bicameral Resolution Engine)
+##### NounsConsensusEngine (The Bicameral Resolution Engine)
 
 Role: The neutral mediator that formalizes cross-DAO agreement.
 
@@ -257,7 +257,7 @@ contract NounsConsensusEngine {
     }    }
 }
 
-# NounsDelegationVault
+##### NounsDelegationVault
 
 Technical Spec: An ERC-721 wrapper that holds Nouns NFTs and issues voting tokens to delegates.
 
@@ -276,7 +276,7 @@ contract NounsDelegationVault is ERC721Holder, ERC20 {
         _transfer(msg.sender, to, amount);
     }
 }
-# NounsSnapshotRelayer
+##### NounsSnapshotRelayer
 
 Technical Spec: Trustlessly bridges off-chain Snapshot votes on-chain.
 
@@ -297,7 +297,7 @@ contract NounsSnapshotRelayer {
 }
 
 
-# GovernanceModuleRegistry
+##### GovernanceModuleRegistry
 
 Technical Spec: A curated registry for plug-and-play governance.
 
