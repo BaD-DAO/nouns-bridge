@@ -5,9 +5,9 @@
 Nouns DAO stands at a pivotal moment. To scale its cultural impact and protect its substantial treasury, our governance must evolve from a single point of failure into a resilient, adaptable ecosystem. This roadmap proposes a phased technical architecture designed to achieve precisely that.
 
 Our mission is to build a future where:
-*   **Provide an unbreakable foundation on Ethereum.
-*   **Enable rapid, safe experimentation in collective decision-making.
-*   **De-risks the core treasury while unlocking new vectors for growth.
+*   **Provide an unbreakable foundation on Ethereum.**
+*   **Enable rapid, safe experimentation in collective decision-making.**
+*   **De-risks the core treasury while unlocking new vectors for growth.**
 
 This is a strategic evolution from a monolithic contract to an **orchestrated ecosystem**, guided by the philosophy: **"Move slowly and secure the assets, so we can move fast and innovate safely."**
 
